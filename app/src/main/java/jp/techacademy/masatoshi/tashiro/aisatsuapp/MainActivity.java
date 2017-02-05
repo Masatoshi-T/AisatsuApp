@@ -3,7 +3,6 @@ package jp.techacademy.masatoshi.tashiro.aisatsuapp;
 import android.app.TimePickerDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -11,7 +10,6 @@ import android.widget.TimePicker;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     TextView mTextView;
-    private int hour =  0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
