@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick (View v) {
         showTimePickerDialog();
-        Log.d("hour1", String.valueOf(hour));
     }
 
     private void showTimePickerDialog() {
